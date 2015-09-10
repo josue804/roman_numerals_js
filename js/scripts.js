@@ -43,13 +43,6 @@ var romanNum = function(num) {
         romanString += romanNumerals[i - 1][prevKey];
         num -= (4 * key);
       }
-
-      // if (num >= 1) {
-      //   for (j = 0; j < Math.floor(dividend); ++j) {
-      //     romanString += romanNumerals[i][key];
-      //     num -= key;
-      //   }
-      // }
     }
   }
   return romanString;
